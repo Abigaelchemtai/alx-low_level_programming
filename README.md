@@ -1,1 +1,1 @@
-all c programmes projects
+This repository contains solutons to c programming
