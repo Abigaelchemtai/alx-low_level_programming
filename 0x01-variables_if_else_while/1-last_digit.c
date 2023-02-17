@@ -1,24 +1,22 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
- * main -Main program
- * Return:0
+ * main - Determine positive, negative and zero
+ * Return: 0
  */
 int main(void)
 {
-	int n;
-	int last;
+int n;
+int last_digit
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	last = n % 10;
-
-	if (last > 5)
-	printf("Last digit of %d is %d and is greater than 5\n", n, 1);
-	else if (last == 0)
-        printf("Last digit of %d is %d and is 0\n", n, 1);
-	else if (last !=0 && last < 6)
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
-	return (0);
-	}
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (last_digit > 5)
+printf("The last digit of %d is %d is greater than 5\n", n);
+else if (last_digit == 0)
+printf("The last digit of %d is 0\n", n);
+else
+printf("The last digit of %d is less than 6 and not o\n", n);
+return (0);
+}
