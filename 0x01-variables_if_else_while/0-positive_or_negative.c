@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <time.h>
+#include <std.h>
 /**
  * main - Determine positive, negative and zero
  * Return: 0
