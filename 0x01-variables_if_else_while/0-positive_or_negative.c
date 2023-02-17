@@ -1,1 +1,1 @@
-#!/bin/bash
+gcc -n $RAND_MAX 
