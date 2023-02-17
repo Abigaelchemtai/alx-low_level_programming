@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+/**
+ * main -Main program
+ * Return:0
+ */
+int main(void)
+{
+	int n;
+	int last;
+
+	srand(time(0));
+	n = rand() -RAND_MAX / 2;
+	last =n % 10;
+
+	if (last > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, 1);
+	else if (last == 5)
+                printf("Last digit of %d is %d and is 0\n", n, 1);
+	else if (l !=0 && l < 6)
+		printf("Last digit of %d is %d and is less than 8 and not 0\n", n, 1);
+	return (0);
+}
+	
