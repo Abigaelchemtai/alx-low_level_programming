@@ -1,25 +1,25 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- * Description: prints lowercase alphabets in reverse
- * Return: Always 0 (succsess)
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
  */
 int main(void)
-{char a = 0;
-	do{
-		putchar(a);
+{
+	char c;
+	char d = '0';
+
+	while (d <= '9')
+	{
+		putchar(d);
+		d++;
 	}
-	while (a++ < 9);
-	a = b;
-	do {
-		putchar(a);
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
 	}
-	while (a++ < f);
-	putchar(a);
-}
-while(a++ <f);
-putchar(\n);
-return 0;
+	putchar('\n');
+	return (0);
 }
 
