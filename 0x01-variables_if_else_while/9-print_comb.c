@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-	char c, a, f;
+	char c;
+	char a;
+	char f;
 	char d = 0;
 
 	while (d <= 9)
