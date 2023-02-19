@@ -3,18 +3,23 @@
 /**
  * main - Entry point
  * Description: prints lowercase alphabets in reverse
- * Return: Always 0 (success)
+ * Return: Always 0 (succsess)
  */
 int main(void)
-{
-	int a;
-
-	for (a = 'z'; a >= 'a'; a--)
-	{
+{char a = 0;
+	do{
 		putchar(a);
 	}
-	putchar('\n');
-	return (0);
+	while (a++ < 9);
+	a = b;
+	do {
+		putchar(a);
+	}
+	while (a++ < f);
+	putchar(a);
 }
-
+while(a++ <f);
+putchar(\n);
+return 0;
+}
 
