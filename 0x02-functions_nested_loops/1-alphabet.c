@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * main - print_alphabet display letter
- * Description - print_alphabet that prints aphabet in small letter
- * Return: Always O.
+ * print_alphabet - display letter in lowercase
  *
+ * Return: Always 0.
  */
-
 void print_alphabet(void)
 {
 	char i = 'a';
@@ -16,5 +14,4 @@ void print_alphabet(void)
 		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
