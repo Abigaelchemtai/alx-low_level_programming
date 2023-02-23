@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 int mul(int a, int b)
-{i
+{
 	int mul;
 
 	mul = a * b;
