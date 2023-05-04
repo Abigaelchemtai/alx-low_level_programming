@@ -19,5 +19,6 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		decimal_value = 2 * decimal_value + (b[w] - '0');
 	}
-	return (decimal_value);/** else if statement is false return the decimal value*/
+	return (decimal_value);
+	/** else if statement is false return the decimal value*/
 }
