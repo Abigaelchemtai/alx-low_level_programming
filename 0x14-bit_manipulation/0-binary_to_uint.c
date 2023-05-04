@@ -10,7 +10,7 @@ unsigned int binary_to_uint(const char *b)
 	int w;
 	unsigned int decimal_value = 0;
 
-	if (!w)
+	if (!b)
 		return (0);/**if the statement is true return 0 **/
 
 	for (w = 0; b[w]; w++)
@@ -19,5 +19,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		decimal_value = 2 * decimal_value + (b[w] - '0');
 	}
-	return (dec_val);/** else if statement is false return the decimal value*/
+	return (decimal_value);/** else if statement is false return the decimal value*/
 }
